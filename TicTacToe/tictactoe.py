@@ -204,7 +204,7 @@ def control():
 
     elif sum(l2)+sum(l3)==37:
         table()
-        print("\nDRAW\n")
+        print("\nDRAW...\n")
         exit()
 
 whostart=input("\nChoose One ({}) or ({}): ".format(okt,tpr)).upper()
