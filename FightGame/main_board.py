@@ -99,41 +99,30 @@ class Fighters:
     def pc():
         teamChoose.attack(attackChoose)
         
-
 class Player1(Fighters):
     SPcount=0
     def __init__(self,*args):
         super().__init__("P1",100,456,200)
-
-
 
 class Player2(Fighters):
     SPcount=0
     def __init__(self,*args):
         super().__init__("P2",50,345,180)
 
-
-
 class Player3(Fighters):
     SPcount=0
     def __init__(self,*args):
         super().__init__("P3",60,783,220)
-
-
 
 class Enemy1(Fighters):
     SPcount=0
     def __init__(self,*args):
         super().__init__("E1",40,500,230)
 
-
-
 class Enemy2(Fighters):
     SPcount=0
     def __init__(self,*args):
         super().__init__("E2",45,553,190)
-
-
 
 class Enemy3(Fighters):
     SPcount=0
